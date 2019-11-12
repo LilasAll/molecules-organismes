@@ -65,12 +65,28 @@
   background-size: cover;
 }
 
+.jumbo-home {
+  background-image: url("https://images.pexels.com/photos/415318/pexels-photo-415318.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+  background-attachment: fixed;
+  background-size: cover;
+}
+
 .event-card {
   padding: 30px 50px;
 }
 
 .titre {
   font-family: 'Oswald', sans-serif;
+}
+
+.card-event {
+  margin: 0 auto; /* Added */
+  float: none; /* Added */
+  margin-bottom: 10px; /* Added */
+}
+
+.page-footer{
+  position: relative;
 }
 /* MES MODIFS */
 
@@ -87,6 +103,7 @@ html {
 article, aside, figcaption, figure, footer, header, hgroup, main, nav, section {
   display: block;
 }
+
 
 
 
